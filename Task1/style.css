@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 82px;
+    background-color: rgb(11, 11, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(6, 6, 40);
+    font-size: 0.5rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+/*main*/
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+
+}
+main hr{
+    border: 0;
+    background: #da00ff;
+    height: 1px;
+    margin: 60px 84px;
+}
+.firstSection>div{
+   width: 30%;
+}
+.leftSection{
+    
+    font-size: 2.5rem;
+    
+}
+/* .rightSection{
+    background-color: red;
+    width: 34px;
+} */
+
+/* img1 */
+.img1{
+    width: 80%;
+    margin: 50px 0;
+}
+.text-gray{
+    color: gray;
+
+}
+.purpul{
+    color: blueviolet;
+}
+#element{
+    color: red;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.leftSection .buttons{
+    padding: 47px 0;
+    
+
+}
+
+/* secondSection */
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+ .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+.imgA{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+
+.ver-title{
+    position: relative;
+    top:75px;
+    width: 150px;
+    font-size: 14px;
+
+}
+.ver-desc{
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 10px;
+
+}
+footer{
+    background-color: #0e0e1a;
+    /* height: 223px; */
+}
+.footer{
+    display: flex;
+    margin: 23px 122px;
+    justify-content: space-evenly;
+
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 123px;
+
+}
+.footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0 ;
+
+}
+
+
+

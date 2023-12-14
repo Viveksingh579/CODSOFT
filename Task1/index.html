@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Contact.css" >
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vivek portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hii! My name is <samp class="purpul">Vivek Singh</samp>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img class="img1" src="img/1st.png" alt="" srcset="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="" text-gray>What i have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="imgA" src="img/html.png" alt="" srcset="" />
+            <div class="ver-title">Html Developer (2021-2025)</div>
+            <div class="ver-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+              minus, corporis facere perspiciatis voluptates consectetur odio
+              numquam sint, voluptatem quibusdam laborum atque tempore
+              obcaecati.
+            </div>
+          </div>
+          <div class="vertical"> <img class="imgA" src="img/node.png" alt="" srcset="" />
+            <div class="ver-title">Node-js Developer (2021-2025)</div>
+            <div class="ver-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+              minus, corporis facere perspiciatis voluptates consectetur odio
+              numquam sint, voluptatem quibusdam laborum atque tempore
+              obcaecati.
+            </div>
+        </div>
+          <div class="vertical"> <img class="imgA" src="img/java.png" alt="" srcset="" />
+            <div class="ver-title">java Developer (2021-2025)</div>
+            <div class="ver-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+              minus, corporis facere perspiciatis voluptates consectetur odio
+              numquam sint, voluptatem quibusdam laborum atque tempore
+              obcaecati.
+            </div>
+        </div>
+          <div class="vertical"> <img class="imgA" src="img/App.png" alt="" srcset="" />
+            <div class="ver-title">App Developer (2021-2025)</div>
+            <div class="ver-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+              minus, corporis facere perspiciatis voluptates consectetur odio
+              numquam sint, voluptatem quibusdam laborum atque tempore
+              obcaecati.
+            </div>
+        </div>
+        </div>
+      </section>
+    </main>
+     <main>
+      <form id="contactForm">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    
+        <p id="error" class="error"></p>
+    
+        <button class="Boo"type="button" onclick="submitForm()">Submit</button>
+    </form>
+     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <H3>Vivek Developer portfolio</H3>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-Third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-Fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 Vivekportfolio.com | All Rights reserverd
+        </div>
+    </footer>
+    <script async src="index.js"></script>
+    <script async src="cont.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
+</html>
